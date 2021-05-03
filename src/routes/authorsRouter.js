@@ -19,14 +19,14 @@ function router(nav){
             book : "Harry Potter",
             genre : "Fanstasy",
             img : "jk.jpg",
-            about : "Joanne Rowling CH, OBE, HonFRSE, FRCPE, FRSL, better known by her pen name J. K. Rowling, is a British author, philanthropist, film producer, television producer, and screenwriter.J.K. Rowling first had the idea for Harry Potter while delayed on a train travelling from Manchester to London King’s Cross in 1990. Over the next five years, she began to plan out the seven books of the series. She wrote mostly in longhand and amassed a mountain of notes, many of which were on scraps of paper."
+            
         },
         {
             author : "Basheer",
             book : "Pathummayude Aadu",
             genre : "Drama",
             img : "Basheer.jpg",
-            about : "Vaikom Muhammad Basheer, also known as Beypore Sulthan, was an Indian independence activist and writer of Malayalam literature.Born in Thalayolaparambu in Kottayam District as the eldest child of a timber businessman, Basheer even from his childhood days was attracted to Gandhian thoughts and ideologies. He participated in freedom struggles and was imprisoned which also inspired his writings."
+            
         }
     ]
 
