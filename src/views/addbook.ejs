@@ -98,32 +98,26 @@
           
           
           
-          <!--/Books-->
-          <%for(i=0;i<books.length;i++){%>
+          <!--Book-->
           <div class="row">    
             <br>
-            <div class="col-md-2 col-sm-3 text-center">
-              <a class="story-title" href="/books/<%=i%>"><img alt="" src="/images/<%=books[i].image%>" style="width:100px;height:100px" class="img-circle"></a>
+            <div style="text-align: center; ">
+                <form action="/admin/add" method="POST">
+                    Title: <input type="text" name="title"> <br><br>
+                    Author: <input type="text" name="author"> <br><br>
+                    Genre: <input type="text" name="genre"> <br><br>
+                    Image: <input style="padding-left: 500px;" type="file" name="image"> <br><br><br>
+                    <button type="submit">Add Book</button>
+                </form>
             </div>
-            <div class="col-md-10 col-sm-9">
-              <h3><%=books[i].title%></h3>
-              <div class="row">
-                <div class="col-xs-9">
-                  <h4><span class="label label-default"><%=books[i].author%></span></h4><h4>
-                  <small style="font-family:courier,'new courier';" class="text-muted"><%=books[i].genre%> - <a href="/books/<%=books[i]._id%>" class="text-muted">Read More</a></small>
-                  </h4></div>
-                <div class="col-xs-3"></div>
-              </div>
-              <br><br>
-            </div>
+          
           </div>
           <hr>
-          <%}%>
          
-          <!--/Books-->
+          <!--/Book-->
           
-          <!-- <a href="/admin/addbook" class="btn btn-primary pull-right btnNext" id="add-btn">Add a Book<i class="glyphicon glyphicon-chevron-right"></i></a> -->
           
+          <!-- <a href="/books" class="btn btn-primary pull-right btnNext">More Books<i class="glyphicon glyphicon-chevron-right"></i></a> -->
         
           
         </div>
